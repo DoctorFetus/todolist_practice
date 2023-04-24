@@ -40,3 +40,41 @@
 .read-the-docs {
   color: #888;
 }
+
+.error {
+  color: red;
+  margin: 10px;
+}
+
+.input_error {
+  border: 2px red solid;
+}
+.todolist {
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 10px;
+}
+li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  align-items: center;
+}
+
+input {
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 15px;
+  max-width: 145px;
+}
+
+.enter_button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
